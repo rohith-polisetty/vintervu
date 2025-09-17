@@ -1,0 +1,29 @@
+# VIntervu - Enhanced AI Interview Bot Requirements
+
+streamlit>=1.46.0
+pandas>=1.5.0
+sqlite3
+hashlib
+json
+PyPDF2>=3.0.0
+SpeechRecognition>=3.10.0
+google-generativeai>=0.3.0
+plotly>=5.0.0
+pyaudio>=0.2.11
+docx2txt>=0.8
+
+# Optional dependencies for better performance
+numpy>=1.21.0
+requests>=2.31.0
+
+# Installation Instructions:
+# 1. Install PyAudio dependencies (for microphone access):
+#    - On Windows: pip install pipwin && pipwin install pyaudio
+#    - On macOS: brew install portaudio && pip install pyaudio
+#    - On Linux: sudo apt-get install portaudio19-dev && pip install pyaudio
+#
+# 2. Install all requirements:
+#    pip install -r requirements.txt
+#
+# 3. Run the application:
+#    streamlit run vintervu-improved.py
